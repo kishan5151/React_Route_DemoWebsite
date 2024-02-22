@@ -11,7 +11,7 @@ const Cardx=(props)=>{
                   <Card.Title style={{color:"#00fff3"}}>{props.title}</Card.Title>
                   <Card.Text className="para">{props.para}
                   </Card.Text>
-                  <Button variant="outlined" href="https://magnificent-hummingbird-6af549.netlify.app/" style={{border:"1px solid #00fff3",color:"#00fff3"}}>Show Demo</Button>
+                  <Button variant="outlined" href="https://magnificent-hummingbird-6af549.netlify.app/" target="_blank" style={{border:"1px solid #00fff3",color:"#00fff3"}}>Show Demo</Button>
                 </Card.Body>
             </Card>
         </>

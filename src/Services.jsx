@@ -11,7 +11,7 @@ const Services=()=>{
             <PageHeding heading="Our Services"/>
             <div className="cardCon">
                 {Servicesdata.map((ele)=>{
-                     return(<Cardx img={ele.img} title={ele.title} para={ele.para}/>)
+                     return(<Cardx key={index} img={ele.img} title={ele.title} para={ele.para}/>)
                 })}
             </div>
         </>
